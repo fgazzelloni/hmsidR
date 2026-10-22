@@ -1,15 +1,15 @@
-citHeader("To cite this book in publications, please use:")
+citHeader("To cite the published print edition of this book, please use:")
 
 entry <- bibentry(
   bibtype = "Book",
-  title = "Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modeling Analysis with R",
+  title = "Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modelling Analysis with R",
   author = person("Federica", "Gazzelloni"),
-  year = "2024",
+  year = "2025",
   publisher = "CRC Press",
   address = "Boca Raton, FL, USA",
-  isbn = "",
-  url = "https://bookdown.org/fede_gazzelloni/hmsidR/",
-  note = "A comprehensive guide to health metrics and infectious disease modeling with practical examples in R."
+  isbn = "9781032625782",
+  url = "https://federicagazzelloni.com/hmsidR/",
+  note = "ISBN identifies the hardcover edition; the online version is freely available at the book website."
 )
 
 entry
