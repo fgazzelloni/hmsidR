@@ -26,6 +26,7 @@
 /data/model-data/
 /rsconnect/
 /compiler/
+/latex/preamble_grey.tex
 
 # Rendered files generated at the project root
 /*.html
