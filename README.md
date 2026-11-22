@@ -1,19 +1,18 @@
-# HMSIDwR - ⚠️❗️Final touches are complete—book is available to pre-order! 🚀
+# HMSIDwR - Health Metrics and the Spread of Infectious Diseases
 
-This is the repository for the **Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modeling Analysis with R** book written by Federica Gazzelloni.
+This repository accompanies Federica Gazzelloni's book, **Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modelling Analysis with R**.
 
 📖 Read it online for free:
 
 -   🔗 [federicagazzelloni.com/hmsidR/](https://federicagazzelloni.com/hmsidR/)
 -   🔗 [fgazzelloni.quarto.pub/hmsidr](https://fgazzelloni.quarto.pub/hmsidr/)
 
-🛒 Pre-Order your printed copy:
+📚 The print edition was published by CRC Press in 2025 (ISBN: 978-1-032-62578-2):
 
--   Reserve it today from:👉 [Routledge Website](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782) or 👉 [Amazon](https://www.amazon.com/Health-Metrics-Spread-Infectious-Diseases/dp/1032625783/)
+-   [Routledge](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782)
+-   [Amazon](https://www.amazon.com/Health-Metrics-Spread-Infectious-Diseases/dp/1032625783/)
 
-This book guides you through the modeling representation of the selected real world case studies for the identification of the state of health of a population.
-
-A large component of this book is made in R language for spatial/data visualizations and modeling.
+The book introduces health metrics such as DALYs, YLLs, and YLDs, explains how to calculate and interpret them, and applies statistical, machine-learning, infectious-disease, and spatial-modelling methods using R.
 
 More about the author here:
 
