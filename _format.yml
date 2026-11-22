@@ -1,0 +1,66 @@
+format:
+  html:
+    theme:
+      - pulse
+      - hmsid.scss
+    reader-mode: true
+    html-math-method: katex
+    include-in-header:
+      text: |
+        <script defer data-domain="" src=""></script>
+        <link rel="shortcut icon" href="favicon.ico" />
+    code-overflow: wrap
+    code-link: false
+    code-copy: true
+    fig-align: center
+    fig-cap-location: bottom
+    link-citations: false
+    callout-appearance: simple
+    author-meta: "Federica Gazzelloni"
+    toc: true
+    toc-title: Contents
+    toc-location: right
+    toc-depth: 3
+    mermaid:
+      theme: neutral
+  pdf:
+    documentclass: krantz
+    classoption: [krantz2]
+    keep-tex: true
+    toc-title: Contents
+    link-citations: true
+    latex-output-dir: _book
+    code-blocks:
+      wrap: true
+    colorlinks: true
+    fig-dpi: 300
+    pdf-engine: xelatex
+    include-in-header:
+      - file: latex/preamble.tex
+    include-before-body:
+      - file: latex/before_body.tex
+    include-after-body:
+      - file: latex/after_body.tex
+    bibliography: [references.bib]
+    citation-style: chicago-fullnote-bibliography-16th-edition.csl
+
+editor: visual
+editor_options:
+  chunk_output_type: inline
+
+execute:
+  echo: true
+  message: false
+  warning: false
+  freeze: auto
+  cache: false
+  fig.align: 'center'
+  dev: 'cairo_pdf'
+
+tbl-cap-location: top
+tbl-align: center
+
+knitr:
+  opts_chunk:
+    collapse: true
+    comment: "#>"
