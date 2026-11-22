@@ -162,7 +162,7 @@
     "INLA": {
       "Package": "INLA",
       "Version": "24.05.10",
-      "Source": "unknown",
+      "Source": "URL",
       "Requirements": [
         "Matrix",
         "MatrixModels",
@@ -180,7 +180,8 @@
         "utils",
         "withr"
       ],
-      "Hash": "04c377b491c6a3b832cba804319cf38d"
+      "Hash": "04c377b491c6a3b832cba804319cf38d",
+      "RemoteUrl": "https://inla.r-inla-download.org/R/stable/src/contrib/INLA_24.05.10.tar.gz"
     },
     "KernSmooth": {
       "Package": "KernSmooth",
@@ -1071,7 +1072,7 @@
     "dbplyr": {
       "Package": "dbplyr",
       "Version": "2.5.0.9000",
-      "Source": "GitHub",
+      "Source": "URL",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "dbplyr",
@@ -1098,7 +1099,8 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "e4451eda6a1e996a1fb747387c6a6427"
+      "Hash": "e4451eda6a1e996a1fb747387c6a6427",
+      "RemoteUrl": "https://codeload.github.com/tidyverse/dbplyr/tar.gz/8f2fcb0852994afe11cc6792ef59ef5ffda84936"
     },
     "deSolve": {
       "Package": "deSolve",
@@ -1815,7 +1817,7 @@
     "geomtextpath": {
       "Package": "geomtextpath",
       "Version": "0.1.4.9000",
-      "Source": "GitHub",
+      "Source": "URL",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "geomtextpath",
@@ -1830,7 +1832,8 @@
         "systemfonts",
         "textshaping"
       ],
-      "Hash": "fc0ef3b43259c8f60177daeb6cbdb79d"
+      "Hash": "fc0ef3b43259c8f60177daeb6cbdb79d",
+      "RemoteUrl": "https://codeload.github.com/AllanCameron/geomtextpath/tar.gz/e1efb3f5f6f93fd4977fd01bcbfe62f8cd64c729"
     },
     "ggdag": {
       "Package": "ggdag",
@@ -1938,7 +1941,7 @@
     "ggpattern": {
       "Package": "ggpattern",
       "Version": "1.1.1",
-      "Source": "GitHub",
+      "Source": "URL",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "ggpattern",
@@ -1955,7 +1958,8 @@
         "scales",
         "vctrs"
       ],
-      "Hash": "268eda733c100ed2668815c3dfef18a3"
+      "Hash": "268eda733c100ed2668815c3dfef18a3",
+      "RemoteUrl": "https://codeload.github.com/coolbutuseless/ggpattern/tar.gz/5d3c1de3f472abf041e0e79ced00479cd7c70796"
     },
     "ggplot2": {
       "Package": "ggplot2",
@@ -2381,7 +2385,7 @@
     "hmsidwR": {
       "Package": "hmsidwR",
       "Version": "1.1.2",
-      "Source": "GitHub",
+      "Source": "URL",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "hmsidwR",
@@ -2398,7 +2402,8 @@
         "sysfonts",
         "tibble"
       ],
-      "Hash": "2a8a7c2707899774130de00d85cb8e92"
+      "Hash": "2a8a7c2707899774130de00d85cb8e92",
+      "RemoteUrl": "https://codeload.github.com/Fgazzelloni/hmsidwR/tar.gz/4638cb387466fd017a4d7d898d8df5cb419ad27e"
     },
     "htmltools": {
       "Package": "htmltools",
@@ -4137,7 +4142,7 @@
     "purrr": {
       "Package": "purrr",
       "Version": "1.0.4.9000",
-      "Source": "GitHub",
+      "Source": "URL",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "purrr",
@@ -4151,7 +4156,8 @@
         "rlang",
         "vctrs"
       ],
-      "Hash": "84b202dc7e17f2d0f7b33b55d888e6a6"
+      "Hash": "84b202dc7e17f2d0f7b33b55d888e6a6",
+      "RemoteUrl": "https://codeload.github.com/tidyverse/purrr/tar.gz/9c8beb4e648e64ec3e3ca816df0baeaaf693d1a4"
     },
     "quadprog": {
       "Package": "quadprog",
@@ -4393,7 +4399,7 @@
     "reprtree": {
       "Package": "reprtree",
       "Version": "0.6",
-      "Source": "GitHub",
+      "Source": "URL",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "reprtree",
@@ -4405,7 +4411,8 @@
         "randomForest",
         "tree"
       ],
-      "Hash": "b6e288ec260951f789142bb0bc6f9ce4"
+      "Hash": "b6e288ec260951f789142bb0bc6f9ce4",
+      "RemoteUrl": "https://codeload.github.com/araastat/reprtree/tar.gz/7ebb9ff77300c15b1be10fb28edf37608068f2b2"
     },
     "reshape2": {
       "Package": "reshape2",
@@ -4423,7 +4430,7 @@
     "rethinking": {
       "Package": "rethinking",
       "Version": "2.40",
-      "Source": "GitHub",
+      "Source": "URL",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "rethinking",
@@ -4443,7 +4450,8 @@
         "shape",
         "stats"
       ],
-      "Hash": "9caed73679267a4b22d50a3dc49f219a"
+      "Hash": "9caed73679267a4b22d50a3dc49f219a",
+      "RemoteUrl": "https://codeload.github.com/rmcelreath/rethinking/tar.gz/f3ac8de0b4bcfabccc67ed033fb81d1873ec755e"
     },
     "reticulate": {
       "Package": "reticulate",
@@ -5158,7 +5166,7 @@
     "tensorflow": {
       "Package": "tensorflow",
       "Version": "2.16.0.9000",
-      "Source": "GitHub",
+      "Source": "URL",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "tensorflow",
@@ -5177,14 +5185,14 @@
         "utils",
         "yaml"
       ],
-      "Hash": "b209bf8cb3193803ff71808ad475a67c"
+      "Hash": "b209bf8cb3193803ff71808ad475a67c",
+      "RemoteUrl": "https://codeload.github.com/rstudio/tensorflow/tar.gz/fa13c600e8af7c4a364ac8517e9cefb29d002bd5"
     },
     "terra": {
       "Package": "terra",
       "Version": "1.8-0",
-      "Source": "Repository",
-      "Repository": "https://rspatial.r-universe.dev",
-      "RemoteUrl": "https://github.com/rspatial/terra",
+      "Source": "URL",
+      "RemoteUrl": "https://codeload.github.com/rspatial/terra/tar.gz/038272bd10da9023dc3604fc063bf2d394a7b81c",
       "RemoteSha": "038272bd10da9023dc3604fc063bf2d394a7b81c",
       "Requirements": [
         "R",
@@ -5315,7 +5323,7 @@
     "tidyr": {
       "Package": "tidyr",
       "Version": "1.3.1.9000",
-      "Source": "GitHub",
+      "Source": "URL",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "tidyr",
@@ -5337,7 +5345,8 @@
         "utils",
         "vctrs"
       ],
-      "Hash": "7daf578c8867e28bb77f57d072825a6f"
+      "Hash": "7daf578c8867e28bb77f57d072825a6f",
+      "RemoteUrl": "https://codeload.github.com/tidyverse/tidyr/tar.gz/1c970848703293049a6c7af0b63afb4d4f2c8e6f"
     },
     "tidyselect": {
       "Package": "tidyselect",
@@ -5861,7 +5870,7 @@
     "wpp2022": {
       "Package": "wpp2022",
       "Version": "1.1-4",
-      "Source": "GitHub",
+      "Source": "URL",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "wpp2022",
@@ -5871,7 +5880,8 @@
         "R",
         "data.table"
       ],
-      "Hash": "f2866cbf5eba28f3204a1df73aeee36b"
+      "Hash": "f2866cbf5eba28f3204a1df73aeee36b",
+      "RemoteUrl": "https://codeload.github.com/PPgp/wpp2022/tar.gz/a45518acd0dc63e444482d679253b3fa85c3e22a"
     },
     "xfun": {
       "Package": "xfun",

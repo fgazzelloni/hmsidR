@@ -9,7 +9,7 @@ engine: knitr
 `r format(lubridate::now(tzone = "CET"), usetz = TRUE, digits = 0)`*
 
 ::: solutionbox-header
-❗🛒 Pre-order now: 👉 [Routledge
+Buy the printed edition (CRC Press, 2025): 👉 [Routledge
 Website](https://www.routledge.com/Health-Metrics-and-the-Spread-of-Infectious-Diseases-Machine-Learning-Applications-and--Spatial-Modelling-Analysis-with-R/Gazzelloni/p/book/9781032625782/)
 👉
 [Amazon](https://www.amazon.com/Health-Metrics-Spread-Infectious-Diseases/dp/1032625783/)
@@ -113,20 +113,22 @@ refinement of this book. In particular, I’d like to acknowledge:
 
 ### How to Cite This Book
 
-To cite this book in publications, please use:
+The free online edition developed alongside the book. The legacy June 2023 date records the agreement with the editor, not the print publication date. The first print edition was published in 2025.
 
-> Federica Gazzelloni (2024). *Health Metrics and the Spread of
+To cite the print edition, please use:
+
+> Federica Gazzelloni (2025). *Health Metrics and the Spread of
 > Infectious Diseases: Machine Learning Applications and Spatial
-> Modelling Analysis with R*. CRC Press, Boca Raton, FL, USA. ISBN: .
+> Modelling Analysis with R*. CRC Press, Boca Raton, FL, USA. ISBN: 978-1-032-62578-2.
 
 ::: {.content-visible when-format="html"}
 If you're using BibTeX, you can use the following entry:
 
 ``` bibtex
-@book{gazzelloni2024,
+@book{gazzelloni2025,
   author = {Federica Gazzelloni},
   title = {Health Metrics and the Spread of Infectious Diseases: Machine Learning Applications and Spatial Modelling Analysis with R},
-  year = {2024},
+  year = {2025},
   publisher = {CRC Press},
   address = {Boca Raton, FL, USA},
   isbn = {978-1-032-62578-2}

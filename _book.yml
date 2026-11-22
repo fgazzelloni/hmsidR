@@ -4,7 +4,8 @@ book:
   author:
     name: Federica Gazzelloni
     orcid: 0000-0002-4285-611X
-  date: "06/09/2023" # date of the agreement with the Editor
+  # The former date (June 9, 2023) recorded the agreement with the editor.
+  # Publication history and the 2025 print citation are explained in the preface.
   publisher: "CRC Press - Chapman & Hall"
   publisher-place: "Boca Raton, FL."
   site-url: https://fgazzelloni.quarto.pub/hmsidr/
