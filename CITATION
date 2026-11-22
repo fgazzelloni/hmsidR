@@ -1,4 +1,4 @@
-citHeader("To cite this book in publications, please use:")
+citHeader("To cite the published print edition of this book, please use:")
 
 entry <- bibentry(
   bibtype = "Book",
@@ -9,7 +9,7 @@ entry <- bibentry(
   address = "Boca Raton, FL, USA",
   isbn = "978-1-032-62578-2",
   url = "https://federicagazzelloni.com/hmsidR/",
-  note = "A comprehensive guide to health metrics and infectious disease modeling with practical examples in R."
+  note = "ISBN identifies the hardcover edition; the online version is freely available at the book website."
 )
 
 entry
