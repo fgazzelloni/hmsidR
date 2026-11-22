@@ -538,7 +538,7 @@ window.Quarto = {
 <p>Historically, major risks included starvation, infections, and violent conflicts, while modern risks are often associated with lifestyle choices and chronic diseases such as obesity, cardiovascular disease, and cancer. Despite advancements in healthcare and increasing life expectancy in post-industrial countries, the focus often shifts to perceived threats like terrorism, global pandemics such as COVID-19, and environmental catastrophes. This shift is reflected in the increasing combination of quantitative analyses and public health interventions, tracking changes in risk-related discourse and identifying key risk topics over time.</p>
 <p>Furthermore, tools like topic modelling and sentiment analysis help identify how the public perceives various risks and how these perceptions evolve over time.</p>
 <p>In the field of public health, the latest GBD results reveal significant insights into the causes and risks associated with health metrics and infectious diseases. The primary risks identified include behavioural, environmental, occupational, and metabolic factors.</p>
-<div id="fig-risk-dev" class="quarto-float quarto-figure quarto-figure-center anchored" alt="FlowChart of Historical vs. Modern Risks" data-fig-align="center">
+<div id="fig-risk-dev" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="FlowChart of Historical vs. Modern Risks">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-risk-dev-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/04_risk-dev.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%" alt="FlowChart of Historical vs. Modern Risks">
@@ -669,7 +669,7 @@ Figure&nbsp;5.3: Bar chart showing the relative risk of outcome between exposed 
 <p>This is an example of a <strong>Network graph</strong> representing the causal pathways between different variables, such as smoking, physical inactivity, high blood pressure, lung cancer, heart disease, and stroke. By visualising the relationships between these variables, we can identify the direct and indirect effects of risk factors on health outcomes.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div id="fig-networkgraph1" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Network graph to identify the relationship between risk factors and health outcomes." data-fig-align="center">
+<div id="fig-networkgraph1" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Network graph to identify the relationship between risk factors and health outcomes.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-networkgraph1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="04-causes_risks_files/figure-html/fig-networkgraph1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Network graph to identify the relationship between risk factors and health outcomes." width="672">
@@ -696,7 +696,7 @@ Figure&nbsp;5.4: Directed Acyclic Graph (DAG) - Network Analysis of Risk Factor 
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the DAG</span></span>
 <span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="fu">ggdag</span>(dag) <span class="sc">+</span> <span class="fu">theme_dag_grid</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
-<div id="fig-networkgraph2" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Network graph to identify the relationship between outcome (O), exposure (E) and different risk factors." data-fig-align="center">
+<div id="fig-networkgraph2" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Network graph to identify the relationship between outcome (O), exposure (E) and different risk factors.">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-networkgraph2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="04-causes_risks_files/figure-html/fig-networkgraph2-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Network graph to identify the relationship between outcome (O), exposure (E) and different risk factors." width="576">
@@ -829,7 +829,7 @@ PAF = \frac{{P_e \times (RR - 1)}}{{1 + P_e \times (RR - 1)}}
 <h2 data-number="5.3" class="anchored" data-anchor-id="causal-inference"><span class="header-section-number">5.3</span> Causal Inference</h2>
 <p>Causality concerns the relationship between two variables, where one variable (<em>the cause</em>) directly influences the other (<em>the effect</em>). For example, regular exercise improves cardiovascular health, or adequate sleep supports cognitive function. However, causality is distinct from correlation, which indicates a statistical association without implying a direct influence. For instance, a correlation between television watching and obesity does not imply a causal link. Establishing causality requires systematically evaluating alternative explanations and accounting for confounding factors that could affect both the cause and effect.</p>
 <p>Causal inference is essential for understanding the underlying causes of a condition or phenomenon, even if these causes are not immediately apparent. It often requires a structured data analysis to uncover hidden causal relationships within the observed data.</p>
-<div id="fig-causal_inference" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Causal Inference Flowchart" data-fig-align="center">
+<div id="fig-causal_inference" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="Causal Inference Flowchart">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-causal_inference-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/04_causal_inference_flowchart.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%" alt="Causal Inference Flowchart">
